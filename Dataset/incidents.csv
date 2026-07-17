@@ -1,0 +1,501 @@
+incident_id,date,server,region,category,incident_type,severity,status,assigned_team,resolution_hours,affected_users,cpu_usage,memory_usage,disk_usage,source
+1,2026-06-13,DB-01,São Paulo,Infra,CPU High,Critical,Resolved,SOC,3.4,3680,58,55,69,CrowdStrike
+2,2026-03-13,APP-03,Curitiba,Infra,Memory High,Critical,Open,Infra,12.85,4523,71,64,49,Defender
+3,2026-06-10,DB-01,São Paulo,Cyber,Port Scan,High,Resolved,Infra,15.31,4991,48,79,70,Grafana
+4,2026-05-17,DB-02,São Paulo,Infra,Memory High,Critical,Open,Network,8.15,3759,34,92,82,Grafana
+5,2026-09-03,WEB-02,São Paulo,Infra,Memory High,Critical,Open,Infra,14.28,3153,62,53,71,Wazuh
+6,2026-06-02,FW-02,Curitiba,Cyber,Port Scan,High,Open,SOC,2.89,1253,27,42,57,Defender
+7,2026-02-11,APP-02,São Paulo,Infra,Service Offline,Critical,Open,SOC,3.52,2172,80,36,49,CrowdStrike
+8,2026-05-06,FW-01,Curitiba,Cyber,Malware,Low,Resolved,Infra,17.28,1876,40,65,70,Zabbix
+9,2026-09-01,FW-01,Curitiba,Cyber,Brute Force,Low,Resolved,Network,9.53,2903,58,74,24,Wazuh
+10,2026-04-16,WEB-02,São Paulo,Cyber,Brute Force,Low,Resolved,Network,9.93,4509,96,49,48,Zabbix
+11,2026-01-13,DB-01,Recife,Infra,CPU High,Critical,Resolved,SOC,4.22,1556,38,30,23,Defender
+12,2026-02-25,APP-01,Curitiba,Infra,Service Offline,Medium,Open,Network,7.89,983,42,37,29,CrowdStrike
+13,2026-03-05,FW-02,Recife,Infra,Service Offline,High,Open,Infra,12.79,77,30,75,75,Wazuh
+14,2026-09-06,FW-02,Rio,Infra,CPU High,Low,Resolved,SOC,2.81,2167,30,45,36,Zabbix
+15,2026-01-28,DB-02,São Paulo,Infra,Disk Full,High,Open,SOC,2.81,3620,43,43,36,CrowdStrike
+16,2026-06-30,FW-02,Rio,Cyber,Port Scan,Medium,Resolved,SOC,4.26,843,72,41,88,Defender
+17,2026-05-24,DB-01,Recife,Cyber,Port Scan,Low,Resolved,Network,8.93,1823,55,80,53,Grafana
+18,2026-04-28,WEB-02,Rio,Cyber,Suspicious Login,Medium,Resolved,Cloud,6.1,314,59,52,25,Zabbix
+19,2026-02-06,APP-02,Rio,Cyber,Suspicious Login,Critical,Resolved,Infra,12.74,2705,82,44,72,CrowdStrike
+20,2026-03-22,WEB-01,Rio,Infra,Disk Full,High,Resolved,SOC,3.61,3522,22,57,85,CrowdStrike
+21,2026-06-05,DB-01,São Paulo,Cyber,Firewall Alert,Medium,Open,SOC,2.62,201,41,63,62,Zabbix
+22,2026-03-04,WEB-02,Recife,Cyber,Port Scan,Low,Open,SOC,3.43,995,72,31,42,Wazuh
+23,2026-04-02,FW-02,Rio,Cyber,Port Scan,Critical,Open,SOC,2.63,2250,21,61,74,Wazuh
+24,2026-01-20,FW-02,Recife,Cyber,Malware,Critical,Resolved,Infra,13.1,1695,43,52,35,Wazuh
+25,2026-04-10,WEB-02,Recife,Infra,Service Offline,Low,Open,Network,5.11,2754,63,51,27,Wazuh
+26,2026-12-02,APP-01,Rio,Cyber,Malware,Medium,Open,Network,7.77,2678,49,80,23,Defender
+27,2026-04-08,FW-02,São Paulo,Cyber,Firewall Alert,Medium,Resolved,SOC,2.63,3880,57,54,23,Zabbix
+28,2026-05-25,WEB-01,Recife,Infra,Network Down,Medium,Resolved,Infra,10.81,4851,85,51,75,Grafana
+29,2026-01-27,FW-02,Rio,Cyber,Port Scan,Critical,Open,SOC,3.19,3568,79,51,44,Grafana
+30,2026-05-14,VPN-01,Rio,Cyber,Port Scan,Low,Open,Network,8.7,2663,40,78,86,Grafana
+31,2026-05-05,DB-02,Recife,Infra,Disk Full,Critical,Resolved,Network,7.5,142,52,99,86,Zabbix
+32,2026-03-17,WEB-01,Rio,Infra,Network Down,Medium,Resolved,Infra,13.21,1578,31,90,46,Defender
+33,2026-01-31,FW-02,São Paulo,Infra,Memory High,High,Open,Infra,12.86,447,77,35,51,CrowdStrike
+34,2026-03-16,FW-01,Curitiba,Infra,Network Down,Low,Resolved,SOC,1.47,1223,41,44,69,CrowdStrike
+35,2026-03-19,VPN-01,Curitiba,Infra,Memory High,Medium,Open,SOC,1.62,2168,86,83,80,Zabbix
+36,2026-10-02,FW-01,Rio,Infra,Memory High,Medium,Resolved,Network,10.96,941,100,72,70,CrowdStrike
+37,2026-02-27,DB-02,Recife,Infra,Disk Full,Low,Resolved,Infra,14.23,3540,44,66,38,Defender
+38,2026-06-04,VPN-01,Recife,Cyber,Brute Force,Low,Resolved,Network,7.28,2851,68,62,40,Wazuh
+39,2026-03-27,WEB-02,Recife,Cyber,Brute Force,Critical,Resolved,Infra,14.51,1537,46,88,24,CrowdStrike
+40,2026-04-03,DB-02,Rio,Cyber,Firewall Alert,Low,Resolved,Network,8.47,764,78,82,61,Grafana
+41,2026-01-30,DB-02,São Paulo,Cyber,Brute Force,Low,Resolved,Cloud,5.5,3400,61,73,80,Defender
+42,2026-05-10,APP-03,Recife,Cyber,Brute Force,Medium,Resolved,Network,9.16,358,88,73,41,Defender
+43,2026-02-05,APP-03,Curitiba,Cyber,Firewall Alert,Critical,Resolved,Cloud,4.45,2774,98,34,40,CrowdStrike
+44,2026-06-27,WEB-02,Curitiba,Cyber,Brute Force,Critical,Open,SOC,2.55,2454,35,68,89,Zabbix
+45,2026-01-12,DB-01,Recife,Cyber,Brute Force,Medium,Resolved,SOC,2.19,3778,34,33,20,Defender
+46,2026-04-28,APP-02,Recife,Cyber,Brute Force,Critical,Resolved,Infra,16.81,1944,66,35,24,Wazuh
+47,2026-05-27,APP-01,Rio,Cyber,Port Scan,Medium,Resolved,Infra,15.43,323,70,88,31,Defender
+48,2026-04-23,DB-02,Rio,Infra,Service Offline,Low,Resolved,Network,10.73,617,83,61,65,Grafana
+49,2026-02-27,WEB-02,Curitiba,Cyber,Port Scan,Medium,Resolved,Network,7.28,206,74,92,53,CrowdStrike
+50,2026-05-24,DB-02,Recife,Cyber,Port Scan,Critical,Resolved,Cloud,6.07,4426,71,59,68,Wazuh
+51,2026-05-31,FW-01,Rio,Infra,Network Down,Low,Resolved,Network,10.4,2261,76,76,64,Grafana
+52,2026-01-02,APP-01,São Paulo,Cyber,Brute Force,High,Resolved,SOC,3.25,4883,22,64,46,Zabbix
+53,2026-12-03,APP-03,São Paulo,Infra,Memory High,Critical,Resolved,Infra,13.13,521,56,84,45,Wazuh
+54,2026-04-25,FW-01,Recife,Cyber,Port Scan,Critical,Resolved,Infra,12.65,4017,70,69,100,Wazuh
+55,2026-01-19,DB-02,São Paulo,Infra,Disk Full,Critical,Resolved,Network,9.01,1872,87,81,75,Wazuh
+56,2026-03-28,WEB-01,Curitiba,Cyber,Firewall Alert,High,Resolved,SOC,2.27,4558,40,45,82,Zabbix
+57,2026-05-31,DB-02,Rio,Cyber,Brute Force,High,Resolved,Infra,14.74,2283,89,42,67,CrowdStrike
+58,2026-02-27,FW-02,São Paulo,Cyber,Port Scan,Critical,Open,Infra,12.02,1163,58,100,80,Zabbix
+59,2026-01-24,WEB-01,Curitiba,Infra,Network Down,High,Open,Network,7.82,3474,37,71,45,Wazuh
+60,2026-06-05,FW-02,Recife,Cyber,Firewall Alert,Low,Resolved,Infra,16.75,1675,23,59,55,Defender
+61,2026-02-24,APP-01,Curitiba,Infra,Disk Full,Critical,Resolved,Infra,15.77,3767,44,48,20,Zabbix
+62,2026-03-22,WEB-02,Recife,Cyber,Port Scan,Critical,Open,Infra,13.3,3243,79,46,27,Defender
+63,2026-03-28,APP-02,São Paulo,Infra,Disk Full,Medium,Resolved,SOC,1.87,618,33,85,71,Grafana
+64,2026-10-06,VPN-01,Rio,Cyber,Firewall Alert,Low,Open,Cloud,4.94,3783,69,48,66,Wazuh
+65,2026-01-10,FW-02,São Paulo,Infra,Disk Full,Low,Resolved,Network,9.55,848,77,57,75,Defender
+66,2026-01-22,FW-02,Curitiba,Infra,CPU High,High,Open,Infra,11.43,4571,28,94,33,Wazuh
+67,2026-03-14,APP-03,Rio,Cyber,Port Scan,Medium,Resolved,Infra,16.03,3469,45,55,47,CrowdStrike
+68,2026-04-03,WEB-01,São Paulo,Infra,Disk Full,Critical,Resolved,SOC,4.17,1330,72,66,21,Grafana
+69,2026-06-27,FW-01,Recife,Infra,Network Down,Critical,Open,Cloud,6.47,3129,91,55,45,CrowdStrike
+70,2026-05-16,APP-01,Recife,Cyber,Malware,Medium,Open,Network,9.24,752,39,82,33,Grafana
+71,2026-04-26,DB-01,São Paulo,Cyber,Brute Force,Medium,Resolved,Infra,13.83,2351,81,52,78,Wazuh
+72,2026-06-28,APP-02,Curitiba,Infra,Network Down,Low,Open,SOC,2.82,3440,66,38,75,CrowdStrike
+73,2026-04-28,APP-01,São Paulo,Infra,CPU High,Low,Open,Cloud,5.08,555,79,41,26,CrowdStrike
+74,2026-05-20,DB-02,Rio,Infra,Network Down,High,Resolved,SOC,3.05,3807,26,82,22,Wazuh
+75,2026-06-11,DB-02,São Paulo,Infra,Memory High,High,Open,Cloud,7.55,392,63,30,42,Defender
+76,2026-03-11,APP-03,São Paulo,Infra,Disk Full,High,Open,Cloud,5.22,841,80,30,37,Zabbix
+77,2026-03-25,WEB-01,Rio,Cyber,Suspicious Login,Medium,Open,Infra,15.86,1170,27,76,57,CrowdStrike
+78,2026-06-23,DB-01,Rio,Cyber,Brute Force,Critical,Resolved,Cloud,5.68,2284,90,63,34,Grafana
+79,2026-01-30,APP-02,Curitiba,Infra,Memory High,Critical,Open,SOC,1.86,3647,54,61,83,Zabbix
+80,2026-06-24,FW-02,São Paulo,Cyber,Suspicious Login,Medium,Resolved,Network,8.28,216,33,83,47,Defender
+81,2026-05-22,DB-02,Curitiba,Cyber,Firewall Alert,Critical,Resolved,Network,9.08,4239,36,77,58,Defender
+82,2026-02-02,FW-02,São Paulo,Infra,Memory High,High,Open,SOC,2.56,2481,55,54,76,CrowdStrike
+83,2026-05-17,APP-03,São Paulo,Infra,Service Offline,Critical,Resolved,Infra,11.61,4080,95,69,36,CrowdStrike
+84,2026-03-16,FW-01,Rio,Cyber,Firewall Alert,Critical,Open,SOC,3.09,3036,59,74,63,CrowdStrike
+85,2026-05-24,DB-02,São Paulo,Infra,Disk Full,Medium,Open,Network,8.54,4217,23,82,44,Wazuh
+86,2026-05-08,FW-02,Curitiba,Cyber,Firewall Alert,Critical,Resolved,SOC,2.08,2167,21,30,36,Defender
+87,2026-04-14,DB-01,Recife,Cyber,Brute Force,High,Resolved,Cloud,6.81,4570,84,45,32,Defender
+88,2026-06-02,APP-01,São Paulo,Infra,Service Offline,Critical,Open,Cloud,4.77,4864,73,68,44,Defender
+89,2026-05-10,APP-02,Curitiba,Cyber,Port Scan,Critical,Open,SOC,3.3,4295,61,34,87,CrowdStrike
+90,2026-04-08,APP-01,São Paulo,Infra,Memory High,High,Open,Network,9.14,4305,23,51,29,Wazuh
+91,2026-03-22,VPN-01,Recife,Infra,Network Down,High,Resolved,Network,9.79,2858,73,58,86,CrowdStrike
+92,2026-12-03,WEB-01,São Paulo,Cyber,Brute Force,High,Open,Cloud,6.23,1125,48,84,37,Zabbix
+93,2026-06-07,APP-02,Recife,Infra,Memory High,Medium,Open,Cloud,7.31,2632,37,32,53,Defender
+94,2026-06-15,APP-03,Curitiba,Infra,CPU High,High,Open,Infra,13.1,2745,45,41,27,Defender
+95,2026-04-27,DB-01,São Paulo,Cyber,Malware,Critical,Open,Network,10.9,4222,63,55,59,Defender
+96,2026-01-23,DB-01,Rio,Cyber,Brute Force,High,Resolved,SOC,2.52,509,53,100,61,Zabbix
+97,2026-04-30,APP-02,São Paulo,Cyber,Malware,Medium,Open,Infra,14.01,4305,87,80,60,Wazuh
+98,2026-05-16,FW-02,Curitiba,Cyber,Brute Force,Critical,Resolved,SOC,2.77,4205,55,66,25,Wazuh
+99,2026-04-27,WEB-02,Curitiba,Infra,Service Offline,High,Resolved,Network,7.51,1475,33,87,71,Grafana
+100,2026-06-14,WEB-02,São Paulo,Cyber,Suspicious Login,Low,Open,Infra,14.07,2445,81,58,45,Wazuh
+101,2026-06-22,WEB-01,São Paulo,Cyber,Port Scan,Medium,Resolved,Infra,13.32,827,67,43,83,CrowdStrike
+102,2026-09-01,APP-01,São Paulo,Cyber,Port Scan,High,Resolved,SOC,2.52,4271,34,57,78,Grafana
+103,2026-04-16,FW-02,Recife,Cyber,Suspicious Login,Medium,Open,Cloud,4.39,3084,27,34,75,Grafana
+104,2026-05-18,FW-02,Rio,Cyber,Malware,Low,Resolved,Network,11.56,3040,33,76,78,Zabbix
+105,2026-05-18,VPN-01,Curitiba,Infra,CPU High,Medium,Open,SOC,4.48,962,42,78,89,Wazuh
+106,2026-03-04,WEB-02,São Paulo,Infra,Network Down,High,Open,Cloud,6.18,3391,96,59,52,Zabbix
+107,2026-05-25,VPN-01,Rio,Infra,Memory High,Critical,Resolved,Network,6.66,3776,76,75,72,Grafana
+108,2026-01-04,FW-01,Curitiba,Infra,Memory High,Medium,Open,Infra,14.93,1792,59,81,41,CrowdStrike
+109,2026-04-27,APP-01,São Paulo,Cyber,Brute Force,Low,Open,Infra,12.4,4296,40,34,40,Grafana
+110,2026-03-03,WEB-02,Curitiba,Infra,Service Offline,Low,Resolved,Network,8.82,3107,35,41,89,Wazuh
+111,2026-05-22,FW-01,Rio,Cyber,Brute Force,Low,Resolved,Infra,13.79,2297,64,45,89,CrowdStrike
+112,2026-05-25,DB-01,Curitiba,Infra,Memory High,High,Resolved,Infra,14.18,801,97,55,23,Wazuh
+113,2026-01-03,WEB-01,Recife,Infra,Disk Full,Low,Open,Cloud,6.26,2019,66,86,81,Zabbix
+114,2026-01-22,WEB-02,São Paulo,Cyber,Malware,Critical,Resolved,Network,9.71,4563,72,89,81,CrowdStrike
+115,2026-05-12,APP-02,São Paulo,Cyber,Brute Force,Critical,Resolved,SOC,2.99,1138,43,97,43,Defender
+116,2026-03-19,DB-02,Recife,Cyber,Firewall Alert,Low,Resolved,SOC,2.15,2496,45,68,74,Zabbix
+117,2026-04-12,WEB-01,Rio,Cyber,Port Scan,High,Resolved,Network,9.34,4718,44,65,95,Grafana
+118,2026-03-25,VPN-01,Recife,Cyber,Suspicious Login,Critical,Resolved,SOC,3.66,2481,79,62,22,Grafana
+119,2026-03-06,VPN-01,Rio,Infra,Network Down,Medium,Resolved,Infra,14.77,4614,79,59,50,Wazuh
+120,2026-03-26,DB-01,Rio,Cyber,Brute Force,Critical,Resolved,Infra,15.07,951,79,66,59,Grafana
+121,2026-03-31,FW-02,Curitiba,Cyber,Suspicious Login,High,Resolved,Infra,12.31,1347,64,52,55,Grafana
+122,2026-05-13,DB-01,Recife,Infra,Service Offline,Critical,Resolved,Network,8.25,37,60,39,43,Grafana
+123,2026-02-22,APP-03,Recife,Cyber,Brute Force,Low,Resolved,Cloud,6.78,2884,48,83,94,Wazuh
+124,2026-08-06,APP-03,Recife,Infra,Disk Full,Critical,Open,SOC,2.02,3987,34,94,85,CrowdStrike
+125,2026-06-27,WEB-01,Recife,Infra,Service Offline,Critical,Open,Network,8.75,3637,64,65,23,Wazuh
+126,2026-02-12,DB-02,Rio,Infra,Service Offline,High,Resolved,Infra,11.7,3616,20,63,25,CrowdStrike
+127,2026-02-25,FW-01,Recife,Cyber,Brute Force,Medium,Resolved,SOC,3.17,1693,44,81,70,Grafana
+128,2026-01-16,WEB-01,São Paulo,Cyber,Port Scan,Medium,Open,SOC,1.43,1199,26,60,81,Defender
+129,2026-03-05,DB-02,Curitiba,Cyber,Firewall Alert,Low,Open,Network,8.41,2935,28,39,100,Zabbix
+130,2026-05-17,WEB-01,Recife,Cyber,Malware,Low,Resolved,Infra,15.92,1295,43,48,85,Wazuh
+131,2026-04-27,DB-02,São Paulo,Infra,Network Down,Critical,Resolved,Infra,14.5,780,20,61,27,Zabbix
+132,2026-02-24,DB-01,Curitiba,Cyber,Brute Force,Low,Open,Infra,12.88,2567,85,30,45,Defender
+133,2026-03-18,FW-02,Curitiba,Infra,Network Down,Medium,Resolved,Infra,16.33,4830,27,94,70,Wazuh
+134,2026-03-31,DB-01,Curitiba,Cyber,Suspicious Login,Medium,Resolved,Network,8.29,3162,43,34,64,Zabbix
+135,2026-03-03,APP-03,Curitiba,Cyber,Port Scan,Low,Open,Infra,14.17,2148,92,74,63,Grafana
+136,2026-11-01,FW-02,São Paulo,Infra,Network Down,Medium,Resolved,Cloud,4.76,3201,70,33,24,CrowdStrike
+137,2026-12-06,APP-02,São Paulo,Infra,Disk Full,Low,Open,SOC,1.94,4067,36,45,89,Defender
+138,2026-05-14,WEB-01,Curitiba,Cyber,Malware,Critical,Resolved,SOC,3.16,3013,27,53,45,Grafana
+139,2026-07-03,DB-01,São Paulo,Infra,Service Offline,High,Resolved,SOC,3.59,3410,54,45,87,Defender
+140,2026-03-11,FW-02,Curitiba,Infra,Service Offline,High,Resolved,SOC,3.14,2389,54,84,38,CrowdStrike
+141,2026-03-19,DB-01,Rio,Infra,Network Down,Low,Open,Network,10.02,2520,52,31,39,Zabbix
+142,2026-02-22,DB-02,São Paulo,Infra,Network Down,Critical,Resolved,Infra,15.77,4849,78,78,31,CrowdStrike
+143,2026-01-16,WEB-02,São Paulo,Cyber,Malware,Critical,Resolved,Network,9.43,2573,24,57,66,Wazuh
+144,2026-01-31,DB-02,São Paulo,Cyber,Malware,High,Resolved,Network,8.17,4207,89,61,20,Zabbix
+145,2026-06-23,FW-01,São Paulo,Cyber,Suspicious Login,Critical,Resolved,Cloud,4.68,689,58,56,33,CrowdStrike
+146,2026-05-31,APP-03,Curitiba,Cyber,Brute Force,Critical,Resolved,Network,10.08,1416,77,49,83,Defender
+147,2026-02-24,APP-01,São Paulo,Infra,Disk Full,Critical,Open,SOC,2.91,4308,60,53,57,Grafana
+148,2026-11-06,FW-01,Curitiba,Infra,Network Down,Critical,Resolved,Cloud,6.52,4785,47,41,56,Grafana
+149,2026-10-02,DB-01,Curitiba,Infra,Memory High,High,Resolved,SOC,2.76,4613,26,93,30,Grafana
+150,2026-05-07,APP-01,São Paulo,Cyber,Malware,High,Resolved,Infra,14.1,180,28,64,22,Grafana
+151,2026-05-31,APP-02,São Paulo,Infra,CPU High,High,Resolved,SOC,1.82,4825,27,62,52,Grafana
+152,2026-04-07,APP-01,Rio,Cyber,Suspicious Login,Low,Resolved,SOC,2.42,2842,31,62,25,Defender
+153,2026-02-12,DB-01,São Paulo,Infra,Disk Full,Critical,Resolved,Network,9.37,3103,53,80,69,Defender
+154,2026-05-20,DB-01,São Paulo,Cyber,Brute Force,Low,Open,Infra,17.09,2769,52,72,29,CrowdStrike
+155,2026-06-07,VPN-01,Curitiba,Cyber,Brute Force,Critical,Resolved,Network,9.98,1259,67,66,24,Zabbix
+156,2026-04-03,VPN-01,Recife,Infra,Network Down,Critical,Resolved,Cloud,6.3,747,74,41,42,CrowdStrike
+157,2026-04-10,DB-02,Recife,Infra,Disk Full,Medium,Resolved,Infra,16.63,3172,42,32,29,CrowdStrike
+158,2026-04-18,APP-02,Recife,Cyber,Port Scan,Low,Open,Network,9.76,1655,43,30,63,Grafana
+159,2026-02-06,FW-02,São Paulo,Cyber,Suspicious Login,Medium,Resolved,Infra,13.63,866,56,62,21,CrowdStrike
+160,2026-01-26,VPN-01,Rio,Cyber,Port Scan,Medium,Open,Infra,15.46,3893,54,69,32,Defender
+161,2026-04-06,FW-01,São Paulo,Infra,Disk Full,Critical,Resolved,SOC,2.63,3336,63,39,59,Wazuh
+162,2026-05-13,DB-02,São Paulo,Cyber,Brute Force,Low,Resolved,Network,8.01,415,59,72,21,Defender
+163,2026-06-30,WEB-02,Rio,Infra,Disk Full,Low,Open,Cloud,6.25,225,41,73,84,Wazuh
+164,2026-01-13,DB-01,São Paulo,Infra,Service Offline,High,Resolved,Cloud,6.35,2256,46,58,82,Wazuh
+165,2026-04-07,VPN-01,Recife,Cyber,Firewall Alert,Low,Resolved,Cloud,5.32,2265,95,42,36,Defender
+166,2026-03-12,VPN-01,Recife,Cyber,Suspicious Login,Critical,Resolved,Infra,14.97,4777,20,41,28,CrowdStrike
+167,2026-02-18,WEB-01,São Paulo,Cyber,Malware,High,Open,Infra,16.05,1821,92,60,34,Defender
+168,2026-02-27,DB-02,Recife,Cyber,Firewall Alert,High,Resolved,Network,8.33,443,56,75,43,Grafana
+169,2026-02-05,FW-01,São Paulo,Infra,Disk Full,Medium,Open,SOC,3.85,4011,66,31,57,Zabbix
+170,2026-02-03,WEB-02,São Paulo,Cyber,Firewall Alert,High,Open,Cloud,6.23,1057,33,80,54,Zabbix
+171,2026-04-09,FW-01,Recife,Cyber,Malware,Low,Resolved,SOC,3.27,1838,22,79,68,Grafana
+172,2026-02-24,APP-01,Recife,Infra,Service Offline,Critical,Resolved,Network,9.9,1013,20,64,88,CrowdStrike
+173,2026-03-06,APP-02,Curitiba,Cyber,Malware,Critical,Resolved,SOC,1.59,4989,24,52,81,Grafana
+174,2026-09-03,FW-02,Curitiba,Infra,Disk Full,Critical,Open,SOC,3.26,738,45,46,79,CrowdStrike
+175,2026-01-20,FW-01,Curitiba,Infra,Disk Full,Low,Resolved,Infra,12.55,1134,74,55,69,Grafana
+176,2026-03-26,APP-02,Curitiba,Cyber,Firewall Alert,Medium,Resolved,Infra,15.03,1306,33,37,28,Zabbix
+177,2026-04-17,APP-03,Curitiba,Cyber,Port Scan,Low,Open,Cloud,6.29,2575,58,58,53,Zabbix
+178,2026-06-30,DB-01,Recife,Infra,Disk Full,Critical,Open,SOC,2.69,614,46,55,54,Wazuh
+179,2026-03-24,WEB-02,Recife,Infra,Disk Full,High,Resolved,Infra,15.59,4075,28,90,20,Zabbix
+180,2026-01-27,APP-02,Recife,Cyber,Firewall Alert,High,Open,Network,9.73,2977,34,55,59,Wazuh
+181,2026-01-30,FW-02,São Paulo,Infra,Memory High,Medium,Resolved,Infra,11.36,3219,34,63,83,Grafana
+182,2026-04-28,FW-01,Recife,Infra,Disk Full,Medium,Open,SOC,2.46,1052,93,80,41,Zabbix
+183,2026-04-10,DB-02,São Paulo,Cyber,Port Scan,Medium,Open,SOC,3.49,2381,61,70,79,Defender
+184,2026-06-22,FW-02,Curitiba,Infra,Memory High,Low,Open,Network,8.97,1191,79,36,83,Zabbix
+185,2026-06-21,APP-03,Recife,Infra,Memory High,Medium,Resolved,Cloud,5.29,385,32,33,30,Wazuh
+186,2026-10-04,VPN-01,Recife,Cyber,Suspicious Login,Medium,Resolved,Infra,12.23,1532,70,82,33,Grafana
+187,2026-05-12,FW-02,Rio,Infra,Network Down,Low,Open,Cloud,7.87,4019,51,79,79,CrowdStrike
+188,2026-05-21,FW-02,Rio,Cyber,Brute Force,High,Resolved,Cloud,6.47,2405,58,74,49,Grafana
+189,2026-08-06,WEB-01,Curitiba,Cyber,Port Scan,High,Resolved,Network,9.14,3988,85,40,54,Zabbix
+190,2026-03-17,APP-02,Curitiba,Infra,Disk Full,Medium,Resolved,Infra,10.94,3762,71,58,56,Defender
+191,2026-01-10,FW-02,Curitiba,Infra,CPU High,Critical,Resolved,Infra,13.6,4382,80,85,24,Zabbix
+192,2026-06-14,APP-02,Recife,Infra,Service Offline,Medium,Resolved,SOC,3.82,1118,51,65,45,Wazuh
+193,2026-05-20,APP-01,Rio,Cyber,Malware,Medium,Resolved,Network,10.53,4199,23,54,81,Grafana
+194,2026-11-02,DB-01,São Paulo,Infra,Memory High,Critical,Resolved,Cloud,4.81,2926,49,50,23,Grafana
+195,2026-06-21,FW-01,São Paulo,Infra,CPU High,Low,Open,Cloud,6.66,2017,56,65,61,Grafana
+196,2026-06-14,FW-01,São Paulo,Cyber,Suspicious Login,High,Resolved,Infra,15.08,618,42,39,37,Zabbix
+197,2026-10-05,APP-01,São Paulo,Infra,Service Offline,Critical,Open,Infra,16.25,3251,87,66,59,Defender
+198,2026-09-05,APP-03,Recife,Infra,Memory High,Medium,Resolved,Infra,14.11,2166,64,38,97,Defender
+199,2026-01-03,WEB-02,Rio,Infra,Memory High,Low,Resolved,Cloud,5.03,3083,34,53,33,Grafana
+200,2026-05-13,VPN-01,Rio,Cyber,Suspicious Login,Low,Open,SOC,3.75,3397,62,64,98,Defender
+201,2026-01-30,APP-03,Curitiba,Cyber,Firewall Alert,Medium,Resolved,Cloud,6.79,1475,48,78,70,CrowdStrike
+202,2026-04-14,VPN-01,São Paulo,Infra,Disk Full,High,Resolved,Network,8.29,4887,55,64,57,CrowdStrike
+203,2026-01-18,FW-02,Curitiba,Infra,Network Down,Critical,Resolved,SOC,2.33,4944,32,77,42,CrowdStrike
+204,2026-01-01,DB-01,São Paulo,Cyber,Port Scan,Low,Resolved,Cloud,7.16,4902,51,65,82,CrowdStrike
+205,2026-04-15,VPN-01,Recife,Cyber,Malware,High,Resolved,Cloud,5.18,4392,90,47,34,Wazuh
+206,2026-05-25,FW-02,Recife,Cyber,Port Scan,Medium,Open,Infra,16.44,1883,78,78,44,Wazuh
+207,2026-06-29,WEB-02,Curitiba,Infra,CPU High,Low,Open,Cloud,6.96,1817,70,68,36,Defender
+208,2026-01-21,DB-02,São Paulo,Infra,Network Down,Medium,Open,Infra,11.93,2947,85,61,85,Grafana
+209,2026-06-17,WEB-01,Rio,Infra,Memory High,High,Resolved,SOC,2.75,4968,47,53,72,Grafana
+210,2026-04-27,APP-03,Recife,Cyber,Port Scan,Critical,Resolved,SOC,3.27,2783,21,52,70,Wazuh
+211,2026-06-24,DB-02,São Paulo,Cyber,Port Scan,High,Open,Infra,11.44,3269,61,61,58,Defender
+212,2026-01-20,VPN-01,São Paulo,Infra,Network Down,High,Resolved,SOC,3.78,874,64,66,70,Zabbix
+213,2026-01-21,WEB-01,São Paulo,Cyber,Port Scan,Low,Open,Network,9.66,3919,81,41,89,CrowdStrike
+214,2026-09-01,FW-02,Rio,Cyber,Firewall Alert,Medium,Resolved,Cloud,6.41,1943,72,78,25,Defender
+215,2026-05-01,WEB-02,Curitiba,Cyber,Suspicious Login,High,Open,SOC,2.62,4550,25,84,86,Wazuh
+216,2026-08-04,WEB-02,Recife,Infra,Memory High,Low,Resolved,SOC,2.85,492,47,94,26,Grafana
+217,2026-03-07,WEB-01,Rio,Cyber,Brute Force,High,Resolved,Cloud,6.82,4182,47,52,70,Wazuh
+218,2026-04-25,WEB-01,Rio,Infra,Network Down,High,Resolved,Cloud,7.9,2192,63,88,61,CrowdStrike
+219,2026-06-15,FW-02,Recife,Cyber,Suspicious Login,Low,Resolved,Infra,13.92,523,63,64,83,Wazuh
+220,2026-05-21,APP-02,São Paulo,Infra,CPU High,Medium,Open,Infra,14.58,288,39,70,34,Defender
+221,2026-03-25,FW-01,São Paulo,Cyber,Firewall Alert,Low,Resolved,Network,8.76,2523,49,92,48,Defender
+222,2026-04-16,APP-03,Rio,Cyber,Malware,Medium,Resolved,Infra,13.95,4491,30,46,52,Defender
+223,2026-02-18,APP-03,Recife,Cyber,Port Scan,Medium,Open,Infra,10.9,1495,77,78,46,Grafana
+224,2026-03-16,FW-01,São Paulo,Infra,Network Down,Critical,Open,Infra,13.87,1908,74,49,55,Zabbix
+225,2026-02-08,WEB-01,Curitiba,Infra,Network Down,Critical,Resolved,SOC,2.11,1575,47,77,48,Defender
+226,2026-08-04,FW-01,Rio,Infra,CPU High,Medium,Resolved,Infra,12.04,4503,44,54,57,CrowdStrike
+227,2026-01-02,DB-01,Recife,Cyber,Firewall Alert,Medium,Resolved,Infra,15.0,345,58,51,76,CrowdStrike
+228,2026-06-26,APP-02,Curitiba,Cyber,Port Scan,Medium,Resolved,Network,8.74,1907,95,42,46,Defender
+229,2026-05-23,WEB-01,São Paulo,Cyber,Firewall Alert,Medium,Resolved,Cloud,5.75,2652,20,48,74,Wazuh
+230,2026-12-03,DB-02,São Paulo,Infra,CPU High,High,Resolved,Infra,14.55,4416,76,78,52,Wazuh
+231,2026-02-18,DB-02,Curitiba,Cyber,Port Scan,Critical,Open,SOC,2.04,809,46,65,87,Zabbix
+232,2026-05-27,DB-02,Rio,Cyber,Firewall Alert,Critical,Open,Cloud,5.25,478,76,95,85,CrowdStrike
+233,2026-03-10,FW-02,Curitiba,Infra,CPU High,High,Resolved,Network,10.32,3499,71,70,29,Zabbix
+234,2026-02-12,VPN-01,Rio,Infra,Service Offline,Medium,Open,SOC,3.65,3073,85,48,24,CrowdStrike
+235,2026-03-07,APP-01,Rio,Cyber,Firewall Alert,Medium,Open,Infra,12.59,310,60,41,57,Wazuh
+236,2026-04-02,DB-01,Recife,Infra,Memory High,Low,Resolved,Cloud,5.11,307,22,38,32,CrowdStrike
+237,2026-04-08,WEB-02,Rio,Infra,CPU High,Medium,Resolved,SOC,4.08,414,58,97,50,Wazuh
+238,2026-04-25,WEB-02,São Paulo,Infra,Memory High,Medium,Resolved,Network,9.99,4582,25,57,66,Grafana
+239,2026-05-05,VPN-01,Rio,Cyber,Port Scan,Medium,Open,Cloud,5.18,2823,27,43,71,CrowdStrike
+240,2026-06-17,APP-03,São Paulo,Infra,Disk Full,Medium,Resolved,Cloud,5.92,113,46,60,75,Defender
+241,2026-06-27,WEB-01,Curitiba,Infra,Disk Full,Critical,Open,Infra,13.23,2093,28,81,95,Grafana
+242,2026-01-16,DB-02,São Paulo,Cyber,Malware,Critical,Open,Infra,12.41,2585,56,48,48,Wazuh
+243,2026-06-02,FW-02,Rio,Infra,Memory High,High,Open,Cloud,6.34,1935,52,76,27,CrowdStrike
+244,2026-03-12,DB-01,São Paulo,Infra,Disk Full,Critical,Resolved,Cloud,6.28,4960,83,45,24,Defender
+245,2026-04-25,DB-01,Curitiba,Infra,Memory High,Medium,Resolved,Cloud,6.83,1193,61,82,48,Zabbix
+246,2026-03-23,APP-03,São Paulo,Cyber,Firewall Alert,Low,Open,Cloud,6.01,652,94,34,66,Wazuh
+247,2026-02-04,FW-01,São Paulo,Cyber,Suspicious Login,Low,Open,SOC,2.94,3599,43,64,87,CrowdStrike
+248,2026-05-06,VPN-01,Curitiba,Cyber,Firewall Alert,Medium,Open,Network,9.98,322,92,41,64,CrowdStrike
+249,2026-04-10,DB-02,São Paulo,Infra,Memory High,Medium,Open,Network,10.57,3388,78,54,21,Defender
+250,2026-04-26,APP-02,Rio,Infra,Memory High,Low,Open,Network,9.03,4192,73,81,46,CrowdStrike
+251,2026-02-10,WEB-01,Rio,Cyber,Port Scan,Medium,Resolved,Infra,13.91,1078,51,50,55,Grafana
+252,2026-01-01,VPN-01,Curitiba,Cyber,Brute Force,Medium,Open,Cloud,7.45,4568,84,65,55,Grafana
+253,2026-01-13,APP-01,São Paulo,Infra,Memory High,Critical,Resolved,Cloud,5.74,294,43,82,45,Zabbix
+254,2026-03-18,DB-02,São Paulo,Cyber,Suspicious Login,Low,Resolved,Infra,15.43,4681,60,52,62,CrowdStrike
+255,2026-01-23,WEB-01,São Paulo,Cyber,Port Scan,High,Resolved,SOC,3.8,13,90,45,46,Zabbix
+256,2026-07-01,WEB-02,Rio,Cyber,Brute Force,High,Resolved,Cloud,8.72,51,68,68,88,Zabbix
+257,2026-06-25,APP-03,Recife,Cyber,Suspicious Login,High,Open,Network,9.82,3392,68,74,39,Zabbix
+258,2026-05-14,APP-01,São Paulo,Cyber,Port Scan,Critical,Resolved,SOC,3.29,4876,77,82,30,Zabbix
+259,2026-03-20,WEB-01,São Paulo,Cyber,Brute Force,Low,Open,Network,8.63,4146,71,71,57,Zabbix
+260,2026-05-04,FW-02,Curitiba,Infra,Memory High,Low,Open,Cloud,6.63,361,31,68,25,CrowdStrike
+261,2026-01-23,APP-01,Recife,Cyber,Firewall Alert,Low,Resolved,Cloud,5.14,1224,58,43,42,Grafana
+262,2026-12-03,DB-01,Rio,Infra,CPU High,High,Open,Network,9.39,416,21,60,66,Grafana
+263,2026-01-08,APP-02,São Paulo,Cyber,Brute Force,Low,Open,Network,8.84,4652,22,34,65,Grafana
+264,2026-01-24,FW-01,Rio,Cyber,Brute Force,Critical,Resolved,Network,9.12,248,68,64,31,Zabbix
+265,2026-05-02,DB-02,Recife,Infra,Disk Full,Critical,Open,SOC,2.48,1997,93,52,32,CrowdStrike
+266,2026-02-10,WEB-02,Rio,Cyber,Firewall Alert,Low,Resolved,Network,9.71,1444,68,58,81,Defender
+267,2026-04-14,WEB-02,Recife,Infra,Service Offline,Critical,Open,SOC,3.29,1685,75,72,79,Defender
+268,2026-03-18,VPN-01,Curitiba,Cyber,Firewall Alert,High,Resolved,Infra,12.52,1928,36,40,92,Wazuh
+269,2026-06-29,WEB-02,São Paulo,Cyber,Suspicious Login,High,Open,SOC,4.23,1101,78,47,87,Zabbix
+270,2026-01-19,APP-03,Recife,Infra,Memory High,Critical,Open,Cloud,4.93,1850,68,76,24,Grafana
+271,2026-04-19,WEB-02,Curitiba,Infra,Service Offline,Medium,Resolved,Cloud,6.48,3809,82,41,56,CrowdStrike
+272,2026-01-21,FW-02,Rio,Infra,Memory High,Critical,Resolved,Cloud,5.78,2414,21,38,50,Defender
+273,2026-12-02,DB-02,Curitiba,Infra,Service Offline,High,Resolved,Cloud,6.71,1086,47,39,28,CrowdStrike
+274,2026-03-13,APP-03,Rio,Cyber,Suspicious Login,Low,Resolved,SOC,2.97,4879,73,73,70,Grafana
+275,2026-05-07,APP-03,Recife,Cyber,Firewall Alert,Medium,Open,Network,8.02,3196,42,46,48,Wazuh
+276,2026-03-09,DB-02,Rio,Infra,Service Offline,Low,Resolved,Cloud,6.47,4786,94,67,59,Wazuh
+277,2026-04-29,WEB-01,Rio,Infra,Service Offline,Medium,Open,Cloud,5.93,2064,51,36,60,Grafana
+278,2026-01-09,VPN-01,Rio,Infra,Service Offline,High,Resolved,Network,11.51,621,52,75,30,Wazuh
+279,2026-03-12,WEB-02,São Paulo,Cyber,Suspicious Login,Critical,Resolved,SOC,4.25,4031,20,42,42,Zabbix
+280,2026-06-02,FW-01,Curitiba,Cyber,Malware,Critical,Resolved,Cloud,5.15,1242,90,69,20,Defender
+281,2026-11-04,WEB-02,Recife,Infra,Service Offline,Low,Open,Infra,14.76,2993,93,71,65,CrowdStrike
+282,2026-03-29,FW-02,São Paulo,Infra,Network Down,Medium,Resolved,Infra,13.2,1582,72,38,40,Zabbix
+283,2026-06-01,FW-02,Curitiba,Infra,Network Down,Medium,Resolved,Network,7.79,4396,63,79,55,Grafana
+284,2026-05-29,FW-01,Recife,Infra,CPU High,Medium,Resolved,Infra,12.81,872,45,56,73,Zabbix
+285,2026-05-08,WEB-02,Curitiba,Infra,CPU High,High,Open,SOC,0.9,3401,51,31,76,Grafana
+286,2026-06-28,DB-01,Curitiba,Cyber,Port Scan,Low,Open,SOC,3.66,731,90,34,20,CrowdStrike
+287,2026-03-14,FW-02,Rio,Cyber,Firewall Alert,High,Resolved,Network,7.54,38,51,58,82,CrowdStrike
+288,2026-02-03,WEB-01,São Paulo,Infra,CPU High,Critical,Resolved,Network,10.39,1445,74,66,73,Grafana
+289,2026-06-21,WEB-02,Recife,Infra,CPU High,Low,Resolved,Infra,13.84,1928,23,88,74,Wazuh
+290,2026-06-01,DB-01,Curitiba,Cyber,Firewall Alert,Critical,Resolved,SOC,3.07,1771,74,86,59,CrowdStrike
+291,2026-04-27,DB-01,Recife,Infra,Network Down,Critical,Resolved,SOC,2.76,2815,82,37,34,Grafana
+292,2026-03-17,WEB-02,São Paulo,Infra,Service Offline,Medium,Open,Cloud,4.49,3558,75,77,40,CrowdStrike
+293,2026-02-26,APP-01,Curitiba,Infra,Service Offline,Critical,Open,SOC,3.07,1088,78,74,66,Defender
+294,2026-03-17,DB-02,Curitiba,Infra,CPU High,Low,Open,Network,9.95,2728,36,30,72,CrowdStrike
+295,2026-01-09,DB-01,Recife,Cyber,Firewall Alert,Low,Open,Cloud,5.55,3002,57,51,28,Grafana
+296,2026-06-15,APP-03,Recife,Infra,Service Offline,High,Resolved,Infra,12.45,520,43,81,71,Defender
+297,2026-03-30,FW-02,Recife,Cyber,Firewall Alert,Medium,Open,Cloud,6.86,631,82,46,76,Zabbix
+298,2026-12-02,FW-01,Curitiba,Cyber,Brute Force,High,Resolved,SOC,1.41,516,89,36,45,Zabbix
+299,2026-01-03,FW-02,Rio,Cyber,Firewall Alert,High,Resolved,Infra,13.17,1216,53,54,60,Defender
+300,2026-03-14,DB-02,Rio,Cyber,Malware,Medium,Resolved,SOC,2.82,4608,25,74,54,Zabbix
+301,2026-06-20,APP-03,Curitiba,Cyber,Suspicious Login,High,Resolved,Cloud,6.21,3883,41,33,82,Defender
+302,2026-05-27,APP-02,Curitiba,Infra,Service Offline,High,Open,Infra,12.2,4982,30,65,44,Grafana
+303,2026-05-30,APP-02,Rio,Infra,Disk Full,Critical,Resolved,Cloud,4.75,100,67,35,57,Defender
+304,2026-03-30,WEB-02,Rio,Cyber,Suspicious Login,Critical,Open,Cloud,6.17,542,35,99,21,CrowdStrike
+305,2026-04-07,APP-03,Recife,Infra,CPU High,Critical,Resolved,SOC,3.29,220,52,48,26,Zabbix
+306,2026-09-02,APP-03,Rio,Cyber,Suspicious Login,Critical,Open,Network,9.75,2113,28,96,53,Wazuh
+307,2026-06-27,APP-01,Rio,Infra,Disk Full,Critical,Open,Cloud,6.39,400,79,83,36,Defender
+308,2026-03-16,APP-03,São Paulo,Infra,Service Offline,Low,Resolved,SOC,4.18,4245,99,68,62,Defender
+309,2026-04-06,DB-01,São Paulo,Cyber,Firewall Alert,Low,Resolved,Network,9.75,2853,25,56,78,Defender
+310,2026-06-26,FW-02,São Paulo,Cyber,Malware,Medium,Open,Infra,16.95,3481,35,39,70,Zabbix
+311,2026-01-20,DB-01,São Paulo,Infra,Network Down,Medium,Resolved,SOC,2.59,2880,48,55,73,Zabbix
+312,2026-01-24,APP-03,São Paulo,Infra,Disk Full,Low,Resolved,Infra,14.05,1754,22,48,43,CrowdStrike
+313,2026-05-02,WEB-02,São Paulo,Cyber,Port Scan,Critical,Open,Cloud,5.12,2362,39,68,44,CrowdStrike
+314,2026-01-11,FW-01,Recife,Infra,Disk Full,High,Resolved,SOC,2.35,105,86,32,90,Wazuh
+315,2026-06-22,WEB-02,São Paulo,Infra,Network Down,Critical,Open,Infra,12.95,1908,78,74,71,Wazuh
+316,2026-08-05,VPN-01,Recife,Cyber,Port Scan,Critical,Resolved,SOC,2.6,1103,55,99,89,Zabbix
+317,2026-01-26,WEB-02,Rio,Infra,CPU High,Critical,Resolved,Network,8.99,4136,38,79,52,Defender
+318,2026-05-19,WEB-02,São Paulo,Cyber,Port Scan,Critical,Resolved,Network,7.92,1102,45,57,68,Defender
+319,2026-10-04,FW-01,Rio,Cyber,Brute Force,High,Open,Cloud,6.15,504,22,49,48,Zabbix
+320,2026-06-01,VPN-01,Rio,Infra,Memory High,Low,Resolved,Infra,14.32,2498,38,57,82,Zabbix
+321,2026-03-28,VPN-01,Rio,Infra,CPU High,Low,Resolved,Network,9.09,820,39,37,41,Grafana
+322,2026-03-28,WEB-01,Curitiba,Cyber,Port Scan,High,Resolved,Network,8.19,1851,51,70,45,CrowdStrike
+323,2026-01-24,FW-01,São Paulo,Infra,Service Offline,Critical,Resolved,Network,10.17,2059,26,68,47,CrowdStrike
+324,2026-05-12,APP-03,São Paulo,Cyber,Port Scan,High,Resolved,Network,8.82,1211,71,30,68,Grafana
+325,2026-02-08,WEB-02,São Paulo,Cyber,Firewall Alert,Low,Resolved,SOC,3.73,2544,60,32,100,Wazuh
+326,2026-05-05,DB-01,Curitiba,Cyber,Firewall Alert,High,Resolved,Cloud,6.06,521,52,42,97,Wazuh
+327,2026-04-04,DB-01,Rio,Infra,Network Down,High,Resolved,Network,8.01,1933,59,57,39,Wazuh
+328,2026-02-25,DB-02,Rio,Infra,CPU High,Medium,Resolved,Cloud,4.86,3894,58,78,82,Defender
+329,2026-03-20,FW-02,Curitiba,Infra,Service Offline,Critical,Resolved,Cloud,6.36,2465,37,54,80,Zabbix
+330,2026-03-02,WEB-01,Rio,Cyber,Malware,Low,Open,Cloud,6.56,3448,59,85,68,CrowdStrike
+331,2026-05-21,APP-01,São Paulo,Cyber,Firewall Alert,Medium,Resolved,Network,8.61,2617,20,62,90,Wazuh
+332,2026-05-03,APP-02,Curitiba,Infra,Disk Full,Critical,Open,SOC,3.26,2145,95,67,20,Grafana
+333,2026-01-13,APP-03,São Paulo,Cyber,Port Scan,Medium,Open,Cloud,7.08,2359,47,82,32,Wazuh
+334,2026-04-08,DB-02,São Paulo,Infra,Network Down,High,Open,Network,9.5,703,84,35,70,Zabbix
+335,2026-01-05,WEB-02,Curitiba,Infra,Disk Full,Low,Open,Cloud,7.05,4134,44,73,75,CrowdStrike
+336,2026-08-04,FW-02,Recife,Cyber,Firewall Alert,Medium,Resolved,Cloud,4.62,958,69,98,81,Defender
+337,2026-01-12,DB-02,Curitiba,Infra,Network Down,Medium,Resolved,SOC,2.58,448,81,61,51,Grafana
+338,2026-02-16,FW-01,Curitiba,Infra,Network Down,High,Resolved,Infra,13.83,1669,50,74,49,Defender
+339,2026-02-16,DB-01,Curitiba,Infra,Service Offline,Critical,Open,Cloud,5.06,4837,49,76,48,Zabbix
+340,2026-03-24,FW-01,Rio,Infra,CPU High,High,Open,Infra,13.67,580,61,50,68,CrowdStrike
+341,2026-06-04,APP-03,Recife,Cyber,Brute Force,Critical,Resolved,Cloud,6.52,4944,84,45,64,Grafana
+342,2026-02-04,WEB-02,Curitiba,Infra,Disk Full,Low,Resolved,Cloud,6.51,3798,26,83,49,Grafana
+343,2026-06-15,APP-02,Rio,Infra,Network Down,Low,Open,Infra,14.92,370,79,50,35,CrowdStrike
+344,2026-01-28,VPN-01,Curitiba,Cyber,Firewall Alert,Critical,Open,Cloud,6.52,2572,35,40,59,CrowdStrike
+345,2026-04-27,APP-03,São Paulo,Cyber,Port Scan,Critical,Resolved,Network,8.32,3319,45,66,95,CrowdStrike
+346,2026-05-05,DB-02,São Paulo,Cyber,Port Scan,Critical,Resolved,SOC,3.41,706,67,65,37,Defender
+347,2026-04-29,FW-01,Curitiba,Infra,Network Down,High,Resolved,Infra,15.14,842,76,64,20,Wazuh
+348,2026-04-17,WEB-02,Recife,Cyber,Port Scan,High,Open,Infra,13.2,2195,71,48,66,Wazuh
+349,2026-02-05,APP-01,Recife,Infra,Network Down,Medium,Resolved,Cloud,9.85,3198,79,49,85,Wazuh
+350,2026-06-22,DB-02,São Paulo,Cyber,Firewall Alert,Medium,Open,Infra,13.14,149,82,47,57,Defender
+351,2026-03-08,APP-01,Curitiba,Cyber,Malware,High,Open,SOC,3.08,4223,21,76,70,CrowdStrike
+352,2026-06-21,APP-02,São Paulo,Infra,CPU High,High,Open,Network,8.01,4145,20,70,82,Wazuh
+353,2026-01-26,APP-02,Rio,Infra,Disk Full,Critical,Resolved,Cloud,6.57,2011,67,78,23,Grafana
+354,2026-05-16,FW-01,Rio,Cyber,Malware,Critical,Open,SOC,3.77,3556,31,43,20,Zabbix
+355,2026-11-04,WEB-02,Recife,Infra,Memory High,Medium,Resolved,Network,9.29,2829,24,44,27,Wazuh
+356,2026-02-20,APP-03,Curitiba,Cyber,Brute Force,Low,Open,Cloud,7.14,1978,56,60,48,Defender
+357,2026-04-19,FW-02,Rio,Infra,CPU High,High,Resolved,Cloud,6.95,4693,88,30,74,Grafana
+358,2026-04-07,VPN-01,Recife,Infra,CPU High,Medium,Open,Network,9.29,640,78,82,22,Defender
+359,2026-06-23,FW-01,Recife,Cyber,Port Scan,Critical,Open,SOC,2.44,4205,74,83,51,CrowdStrike
+360,2026-01-31,APP-02,Rio,Infra,Network Down,High,Resolved,Cloud,6.65,2409,28,83,29,Wazuh
+361,2026-08-01,DB-02,Recife,Infra,Memory High,Critical,Open,Cloud,5.68,4635,60,32,53,Wazuh
+362,2026-03-28,FW-01,Recife,Cyber,Firewall Alert,High,Open,Infra,13.59,3630,54,45,74,Defender
+363,2026-06-15,VPN-01,Curitiba,Infra,Memory High,Medium,Resolved,Infra,10.55,2253,38,52,51,Grafana
+364,2026-04-03,APP-01,Recife,Cyber,Brute Force,High,Open,Infra,11.73,940,67,40,69,Zabbix
+365,2026-05-19,DB-02,Recife,Infra,Disk Full,Low,Resolved,Cloud,6.76,1168,35,41,26,Wazuh
+366,2026-03-24,DB-01,Recife,Cyber,Firewall Alert,Low,Resolved,Network,8.39,237,22,39,27,Wazuh
+367,2026-06-12,APP-02,São Paulo,Infra,CPU High,Medium,Open,Network,8.43,4548,88,61,84,Wazuh
+368,2026-11-01,APP-01,Curitiba,Infra,Network Down,Medium,Resolved,Infra,16.05,2463,43,45,95,Zabbix
+369,2026-12-04,DB-01,Rio,Infra,Memory High,Medium,Open,Network,9.28,4912,73,37,86,Defender
+370,2026-05-01,WEB-02,Curitiba,Infra,CPU High,High,Open,Network,7.26,4926,75,67,78,Defender
+371,2026-04-10,DB-01,São Paulo,Infra,CPU High,Medium,Open,Network,7.31,2974,52,41,73,Zabbix
+372,2026-03-13,DB-02,Rio,Cyber,Port Scan,Medium,Resolved,Cloud,5.23,1572,43,53,86,Zabbix
+373,2026-06-27,WEB-02,São Paulo,Cyber,Port Scan,Low,Resolved,Cloud,5.76,3442,71,57,70,CrowdStrike
+374,2026-04-25,APP-02,Curitiba,Cyber,Brute Force,Low,Resolved,Infra,16.47,3932,30,82,27,Wazuh
+375,2026-01-07,WEB-01,Curitiba,Cyber,Suspicious Login,Low,Resolved,Infra,13.63,3092,68,37,53,Defender
+376,2026-06-27,APP-01,Recife,Infra,Memory High,Medium,Open,Infra,14.86,3715,27,57,54,Wazuh
+377,2026-04-29,FW-01,São Paulo,Cyber,Port Scan,High,Resolved,Cloud,5.51,3449,55,65,51,Wazuh
+378,2026-06-08,DB-02,Rio,Cyber,Malware,High,Resolved,Cloud,6.08,3022,57,55,65,Zabbix
+379,2026-05-13,APP-01,Recife,Infra,CPU High,High,Open,Cloud,8.31,2455,59,37,35,Wazuh
+380,2026-03-26,DB-01,São Paulo,Infra,CPU High,Low,Resolved,Cloud,4.13,82,39,79,87,Zabbix
+381,2026-04-02,DB-01,São Paulo,Infra,Service Offline,High,Resolved,SOC,2.74,1463,54,57,99,Grafana
+382,2026-01-06,WEB-02,São Paulo,Infra,Disk Full,Medium,Resolved,SOC,2.69,1571,67,87,73,CrowdStrike
+383,2026-07-04,APP-01,São Paulo,Cyber,Suspicious Login,Critical,Open,SOC,1.83,667,44,66,33,Wazuh
+384,2026-06-19,FW-02,Curitiba,Infra,Memory High,Medium,Open,SOC,3.24,1663,54,70,74,Wazuh
+385,2026-03-02,APP-03,São Paulo,Cyber,Malware,Low,Open,Network,8.14,4197,44,65,67,CrowdStrike
+386,2026-03-28,FW-01,Rio,Cyber,Firewall Alert,Low,Open,Cloud,6.69,1866,84,56,26,Zabbix
+387,2026-01-31,DB-01,Curitiba,Infra,Disk Full,High,Open,Cloud,4.39,2840,37,83,26,Wazuh
+388,2026-04-14,WEB-02,São Paulo,Infra,Network Down,Critical,Open,Network,8.74,1717,65,46,52,Wazuh
+389,2026-04-26,APP-01,Curitiba,Infra,Disk Full,Medium,Open,SOC,3.21,2706,37,38,42,CrowdStrike
+390,2026-06-11,DB-01,Curitiba,Cyber,Firewall Alert,Critical,Open,Infra,14.47,1530,100,62,38,Grafana
+391,2026-01-18,DB-02,São Paulo,Cyber,Suspicious Login,Critical,Resolved,Network,9.37,564,73,82,98,Wazuh
+392,2026-02-22,VPN-01,Recife,Infra,Memory High,Low,Open,Network,10.77,4955,54,87,55,Grafana
+393,2026-05-15,APP-01,São Paulo,Cyber,Port Scan,Critical,Open,Network,10.03,3152,35,42,48,Grafana
+394,2026-06-28,DB-02,Rio,Infra,Network Down,Low,Resolved,Infra,18.62,4133,88,57,79,Defender
+395,2026-04-15,FW-02,Recife,Cyber,Malware,Low,Resolved,Infra,15.68,2053,60,77,21,Zabbix
+396,2026-02-04,DB-01,Curitiba,Cyber,Firewall Alert,Critical,Open,SOC,3.0,636,55,58,20,Zabbix
+397,2026-06-23,DB-01,Curitiba,Cyber,Malware,Low,Resolved,Network,8.81,1653,52,42,66,Grafana
+398,2026-04-06,APP-01,Curitiba,Infra,Memory High,High,Resolved,Cloud,5.53,4605,23,75,88,Grafana
+399,2026-06-09,DB-01,São Paulo,Infra,Service Offline,Low,Open,Cloud,7.09,3023,52,64,39,Zabbix
+400,2026-01-18,APP-02,Rio,Infra,Network Down,Medium,Open,Cloud,6.06,3950,33,35,30,Zabbix
+401,2026-03-27,WEB-02,Curitiba,Infra,Service Offline,Low,Open,SOC,2.81,3069,40,47,21,Wazuh
+402,2026-03-17,VPN-01,Curitiba,Infra,Memory High,Medium,Resolved,Cloud,4.92,2808,67,80,86,Grafana
+403,2026-02-22,WEB-02,São Paulo,Infra,Memory High,Medium,Resolved,Infra,13.81,1423,39,34,31,CrowdStrike
+404,2026-05-21,FW-01,São Paulo,Infra,Memory High,High,Resolved,Network,8.98,656,75,76,39,Defender
+405,2026-04-12,FW-02,São Paulo,Cyber,Malware,High,Open,Network,7.8,3799,83,54,24,Defender
+406,2026-04-27,APP-03,Recife,Cyber,Firewall Alert,Critical,Open,Cloud,5.28,3147,94,31,56,Wazuh
+407,2026-03-20,DB-01,Recife,Infra,Network Down,Medium,Resolved,SOC,1.87,3914,22,39,93,Zabbix
+408,2026-04-03,APP-03,Recife,Infra,Memory High,Medium,Open,Network,8.98,2072,36,89,28,Defender
+409,2026-05-09,APP-02,Curitiba,Cyber,Port Scan,Low,Open,Infra,12.57,3423,52,59,72,CrowdStrike
+410,2026-04-17,DB-01,São Paulo,Cyber,Firewall Alert,High,Resolved,Network,8.65,3611,67,79,63,CrowdStrike
+411,2026-01-28,DB-02,Curitiba,Infra,CPU High,Low,Resolved,Infra,11.59,1730,31,74,43,CrowdStrike
+412,2026-02-01,VPN-01,Recife,Cyber,Port Scan,Low,Resolved,Cloud,6.68,2706,78,34,49,Zabbix
+413,2026-01-01,APP-02,São Paulo,Cyber,Firewall Alert,Low,Resolved,Cloud,5.27,137,70,84,78,Defender
+414,2026-01-12,VPN-01,São Paulo,Cyber,Firewall Alert,Low,Open,SOC,2.66,4080,41,85,33,Zabbix
+415,2026-03-19,FW-02,Rio,Cyber,Malware,Critical,Resolved,Cloud,6.22,1806,74,62,28,Defender
+416,2026-06-20,FW-01,São Paulo,Cyber,Brute Force,Medium,Resolved,Cloud,6.05,948,41,83,59,Defender
+417,2026-01-23,APP-02,Recife,Infra,CPU High,Critical,Open,Cloud,5.35,2991,65,30,85,Grafana
+418,2026-05-14,WEB-01,Rio,Infra,CPU High,High,Resolved,Infra,14.31,2241,49,47,44,CrowdStrike
+419,2026-05-03,WEB-01,Curitiba,Infra,Network Down,Critical,Open,Cloud,8.14,3461,57,61,41,Wazuh
+420,2026-03-31,FW-02,São Paulo,Cyber,Firewall Alert,Critical,Open,Network,9.39,2385,57,76,23,Grafana
+421,2026-02-23,APP-03,São Paulo,Infra,Memory High,Low,Resolved,Infra,12.87,4223,64,78,45,Defender
+422,2026-01-06,DB-01,Rio,Cyber,Malware,Critical,Open,Cloud,6.63,96,70,40,77,Zabbix
+423,2026-01-30,VPN-01,Rio,Infra,CPU High,Medium,Open,Infra,11.87,2665,73,50,48,Zabbix
+424,2026-05-18,FW-02,Curitiba,Infra,Network Down,Critical,Resolved,Cloud,3.97,1008,27,55,56,Zabbix
+425,2026-02-02,APP-02,Rio,Infra,Memory High,Critical,Open,SOC,2.73,4728,46,54,89,Wazuh
+426,2026-06-27,FW-02,Rio,Cyber,Port Scan,High,Open,SOC,2.36,3458,46,51,37,Zabbix
+427,2026-05-21,DB-02,Rio,Cyber,Suspicious Login,Medium,Resolved,Network,8.01,1258,53,56,61,Defender
+428,2026-04-22,APP-02,São Paulo,Cyber,Brute Force,Medium,Resolved,Cloud,6.19,81,40,78,60,Zabbix
+429,2026-04-07,VPN-01,Curitiba,Infra,Network Down,Medium,Resolved,Cloud,5.34,3192,49,42,57,Grafana
+430,2026-03-30,APP-01,Recife,Cyber,Firewall Alert,Critical,Resolved,SOC,2.87,3596,83,62,53,Defender
+431,2026-04-30,DB-02,Curitiba,Cyber,Suspicious Login,Low,Open,Cloud,6.85,4540,47,63,36,Wazuh
+432,2026-03-01,FW-01,Recife,Cyber,Port Scan,Medium,Resolved,SOC,3.32,1433,66,70,56,Zabbix
+433,2026-04-04,WEB-02,Recife,Infra,Service Offline,High,Resolved,Cloud,5.21,1746,99,64,44,Zabbix
+434,2026-06-11,APP-01,Rio,Cyber,Malware,Medium,Open,Network,9.62,2905,24,30,46,Zabbix
+435,2026-01-26,FW-02,Rio,Cyber,Firewall Alert,High,Resolved,Network,10.84,1493,79,90,76,CrowdStrike
+436,2026-10-03,APP-03,Recife,Infra,Network Down,Critical,Open,Cloud,5.89,259,80,77,50,Grafana
+437,2026-06-20,FW-02,Curitiba,Infra,Network Down,Low,Resolved,SOC,4.51,1275,67,84,25,Defender
+438,2026-05-09,WEB-02,São Paulo,Infra,Memory High,High,Resolved,Infra,13.03,2159,38,35,59,Grafana
+439,2026-06-20,VPN-01,Curitiba,Cyber,Malware,Medium,Resolved,Infra,12.38,418,23,57,98,Wazuh
+440,2026-04-15,FW-02,São Paulo,Cyber,Malware,High,Resolved,Infra,16.53,1489,54,93,72,Zabbix
+441,2026-01-01,APP-02,São Paulo,Infra,Disk Full,High,Resolved,Cloud,6.5,2961,99,34,90,CrowdStrike
+442,2026-05-16,DB-01,Curitiba,Cyber,Malware,Low,Resolved,Cloud,6.87,2470,36,60,29,Wazuh
+443,2026-02-21,DB-02,Curitiba,Infra,CPU High,Medium,Resolved,Cloud,4.8,1057,63,34,64,Defender
+444,2026-12-01,FW-02,Curitiba,Infra,Memory High,Medium,Open,SOC,3.14,4851,47,67,36,Zabbix
+445,2026-12-05,DB-01,São Paulo,Cyber,Port Scan,High,Open,SOC,3.21,2216,49,32,45,Zabbix
+446,2026-06-14,VPN-01,Rio,Infra,Memory High,Low,Resolved,Infra,15.32,2913,48,82,81,Grafana
+447,2026-03-13,APP-02,São Paulo,Infra,Disk Full,Critical,Open,Cloud,5.67,1216,65,52,92,Wazuh
+448,2026-01-24,DB-01,Curitiba,Cyber,Malware,Medium,Resolved,Infra,13.99,3494,72,66,83,Grafana
+449,2026-04-27,APP-02,São Paulo,Cyber,Brute Force,Low,Open,Infra,16.22,872,25,82,21,CrowdStrike
+450,2026-03-28,APP-03,Curitiba,Infra,Memory High,High,Open,Infra,14.12,4191,54,66,73,Wazuh
+451,2026-02-06,APP-03,Curitiba,Infra,Memory High,High,Resolved,Cloud,5.53,625,79,39,84,CrowdStrike
+452,2026-03-27,APP-03,Rio,Infra,Disk Full,Critical,Resolved,Cloud,5.35,2175,60,39,70,Zabbix
+453,2026-01-01,WEB-02,Recife,Infra,Memory High,High,Resolved,Cloud,7.77,4049,91,48,72,Wazuh
+454,2026-04-05,WEB-02,São Paulo,Cyber,Port Scan,Low,Resolved,SOC,2.94,2964,92,46,55,Zabbix
+455,2026-02-22,APP-01,São Paulo,Infra,Disk Full,Low,Open,SOC,1.46,961,92,50,45,Grafana
+456,2026-04-07,VPN-01,São Paulo,Infra,Network Down,Medium,Resolved,Network,8.87,1148,68,43,48,CrowdStrike
+457,2026-06-28,APP-01,Recife,Cyber,Firewall Alert,Critical,Resolved,Cloud,6.4,4687,82,38,40,CrowdStrike
+458,2026-03-20,FW-02,Recife,Infra,Network Down,High,Resolved,Network,9.48,3117,72,75,30,Grafana
+459,2026-01-14,APP-02,Rio,Cyber,Firewall Alert,Medium,Resolved,SOC,2.98,266,50,30,59,Grafana
+460,2026-10-03,APP-01,Rio,Infra,Service Offline,Critical,Resolved,Cloud,4.74,1062,54,80,30,Zabbix
+461,2026-03-26,WEB-02,São Paulo,Cyber,Port Scan,Medium,Open,SOC,3.05,1320,79,74,55,CrowdStrike
+462,2026-05-13,DB-02,Curitiba,Cyber,Firewall Alert,Low,Resolved,SOC,4.97,2536,52,42,78,CrowdStrike
+463,2026-01-23,APP-03,Rio,Cyber,Brute Force,Critical,Resolved,SOC,2.85,1016,71,33,58,CrowdStrike
+464,2026-05-05,APP-03,Rio,Infra,Disk Full,Low,Open,Infra,12.71,2006,80,30,73,CrowdStrike
+465,2026-01-03,VPN-01,Curitiba,Infra,CPU High,Low,Open,SOC,3.24,888,40,78,74,Wazuh
+466,2026-04-21,WEB-01,Recife,Infra,Network Down,Medium,Resolved,SOC,2.97,2623,51,69,43,CrowdStrike
+467,2026-01-09,FW-01,Curitiba,Cyber,Brute Force,High,Open,Network,9.83,670,42,61,41,Defender
+468,2026-04-26,APP-02,São Paulo,Cyber,Port Scan,Critical,Resolved,Cloud,6.92,4673,52,63,88,Wazuh
+469,2026-03-01,VPN-01,Rio,Infra,CPU High,Low,Open,Network,8.52,1030,22,57,75,Wazuh
+470,2026-06-13,VPN-01,Rio,Infra,CPU High,Low,Resolved,Network,9.27,3736,37,60,52,Wazuh
+471,2026-04-16,APP-03,Recife,Cyber,Suspicious Login,High,Open,Infra,16.28,718,86,37,55,Zabbix
+472,2026-01-23,APP-02,Recife,Infra,Service Offline,Low,Resolved,SOC,2.07,3847,61,68,39,Zabbix
+473,2026-03-31,DB-01,Curitiba,Cyber,Firewall Alert,Low,Open,Infra,14.81,1257,50,55,81,Defender
+474,2026-05-13,DB-01,Rio,Cyber,Suspicious Login,Medium,Open,Network,9.02,1893,73,63,45,Zabbix
+475,2026-02-02,FW-02,Curitiba,Infra,Service Offline,Medium,Resolved,Network,9.12,2934,77,83,85,Grafana
+476,2026-03-03,DB-02,Curitiba,Infra,Disk Full,Low,Open,SOC,3.91,2314,22,83,59,Defender
+477,2026-02-16,DB-01,Recife,Infra,CPU High,Medium,Resolved,SOC,3.6,2448,59,32,36,Zabbix
+478,2026-02-15,FW-01,São Paulo,Infra,CPU High,Medium,Resolved,Cloud,8.12,941,65,79,20,Grafana
+479,2026-01-08,DB-02,São Paulo,Cyber,Malware,High,Resolved,SOC,3.63,1622,43,41,80,Defender
+480,2026-11-04,WEB-02,Recife,Infra,Service Offline,Medium,Resolved,Cloud,7.03,3064,69,100,62,Zabbix
+481,2026-04-26,DB-02,Curitiba,Infra,CPU High,Medium,Resolved,Cloud,4.48,3048,51,83,61,Grafana
+482,2026-03-22,FW-01,Curitiba,Infra,CPU High,High,Resolved,Infra,12.44,4702,66,73,44,Wazuh
+483,2026-06-24,DB-01,Recife,Cyber,Suspicious Login,Medium,Resolved,Infra,13.71,2336,41,34,58,Zabbix
+484,2026-06-14,WEB-02,Rio,Infra,Network Down,High,Resolved,Network,8.07,654,42,59,54,CrowdStrike
+485,2026-03-22,FW-01,Rio,Cyber,Port Scan,Critical,Open,SOC,2.27,1395,21,88,22,Zabbix
+486,2026-02-18,APP-02,Curitiba,Cyber,Port Scan,Medium,Resolved,Cloud,5.52,1213,46,46,63,CrowdStrike
+487,2026-04-16,FW-01,Rio,Cyber,Brute Force,Medium,Open,SOC,4.12,640,94,77,70,Zabbix
+488,2026-05-07,FW-01,Curitiba,Infra,Memory High,Medium,Resolved,SOC,1.88,2979,21,76,31,Wazuh
+489,2026-04-26,DB-02,Rio,Infra,Network Down,Low,Resolved,Network,9.03,4350,45,52,38,Wazuh
+490,2026-01-04,APP-03,Curitiba,Cyber,Brute Force,Critical,Resolved,Network,9.6,1589,36,44,63,Defender
+491,2026-02-18,FW-02,Curitiba,Cyber,Malware,High,Resolved,SOC,3.47,540,59,66,78,CrowdStrike
+492,2026-01-26,APP-02,Curitiba,Cyber,Malware,Low,Open,SOC,4.75,4123,100,50,68,CrowdStrike
+493,2026-05-03,WEB-01,Rio,Cyber,Malware,Low,Resolved,SOC,2.21,80,28,43,100,CrowdStrike
+494,2026-04-01,DB-01,Rio,Cyber,Port Scan,Critical,Open,Network,10.74,2874,62,31,36,CrowdStrike
+495,2026-03-07,WEB-01,Rio,Cyber,Suspicious Login,Critical,Open,Infra,12.69,2002,73,40,76,CrowdStrike
+496,2026-06-28,DB-02,Rio,Cyber,Suspicious Login,High,Resolved,SOC,2.55,337,67,80,74,CrowdStrike
+497,2026-05-14,FW-01,São Paulo,Cyber,Port Scan,High,Open,Network,10.15,2362,58,68,66,Zabbix
+498,2026-03-17,APP-01,Rio,Infra,Network Down,Medium,Resolved,Infra,11.93,2218,48,67,31,Grafana
+499,2026-02-20,APP-01,Rio,Cyber,Port Scan,Medium,Resolved,Network,11.58,2642,61,63,81,CrowdStrike
+500,2026-02-05,FW-02,Recife,Infra,Disk Full,High,Open,Cloud,7.27,3837,74,67,27,Defender
